@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #0f0f0f;
+    color: white;
+}
+
+/* Header */
+header {
+    background-color: #111;
+    padding: 20px;
+    text-align: right;
+    border-bottom: 3px solid orangered;
+}
+
+header h1 {
+    margin: 0;
+    color: orangered;
+}
+
+/* Menu */
+nav {
+    margin-top: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: orangered;
+}
+
+/* Banner */
+.banner {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+                url('https://images.unsplash.com/photo-1554284126-aa88f22d8b74');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.banner h2 {
+    font-size: 40px;
+    color: orangered;
+}
+
+.banner p {
+    font-size: 18px;
+}
+
+/* Botão */
+.btn {
+    display: inline-block;
+    background-color: orangered;
+    color: white;
+    padding: 12px 25px;
+    margin-top: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #ff4500;
+    transform: scale(1.05);
+}
+
+/* Sobre */
+.sobre {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.sobre h2 {
+    color: orangered;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+    .banner h2 {
+        font-size: 28px;
+    }
+}
+
+.logo-orange {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 50%;
+    filter: saturate(2.2);
+    position:relative(h1);
+}
+
+.logo-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -6px;
+}
